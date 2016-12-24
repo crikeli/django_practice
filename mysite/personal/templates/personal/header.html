@@ -4,10 +4,12 @@
 <head>
 	<title>Kelin Christi</title>
 	<meta charset="utf-8" />
+	<!-- Loads all static files -->
 	{% load staticfiles %}
+	<!-- reference to the bootstrap.min.css  -->
 	<link rel="stylesheet" href="{% static 'personal/css/bootstrap.min.css' %}" type = "text/css"/>
 	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
-
+<!-- The html & the body will make up 100% of the website -->
 	<style type="text/css">
 		html,
 		body {
@@ -17,6 +19,7 @@
 </head>
 
 <body class="body" style="background-color:#f6f6f6">
+	<!-- 95% height to avoid scrolling. -->
 	<div class="container-fluid" style="min-height:95%; ">
 		<div class="row">
 			  <div class="col-sm-2">
